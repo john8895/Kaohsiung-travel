@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>高雄旅遊網 JohnChen 作業</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <main>
+    <section class="banner">
+        <h1>高雄旅遊資訊</h1>
+        <select name="" id="Location">
+            <option value="--請選擇行政區--" disabled selected>--請選擇行政區--</option>
+            <option value="楠梓區">楠梓區</option>
+            <option value="左營區">左營區</option>
+            <option value="鼓山區">鼓山區</option>
+            <option value="三民區">三民區</option>
+            <option value="鹽埕區">鹽埕區</option>
+            <option value="前金區">前金區</option>
+            <option value="新興區">新興區</option>
+            <option value="苓雅區">苓雅區</option>
+            <option value="前鎮區">前鎮區</option>
+            <option value="旗津區">旗津區</option>
+            <option value="小港區">小港區</option>
+            <option value="鳳山區">鳳山區</option>
+            <option value="大寮區">大寮區</option>
+            <option value="鳥松區">鳥松區</option>
+            <option value="林園區">林園區</option>
+            <option value="仁武區">仁武區</option>
+            <option value="大樹區">大樹區</option>
+            <option value="大社區">大社區</option>
+            <option value="岡山區">岡山區</option>
+            <option value="路竹區">路竹區</option>
+            <option value="橋頭區">橋頭區</option>
+            <option value="梓官區">梓官區</option>
+            <option value="彌陀區">彌陀區</option>
+            <option value="永安區">永安區</option>
+            <option value="燕巢區">燕巢區</option>
+            <option value="田寮區">田寮區</option>
+            <option value="阿蓮區">阿蓮區</option>
+            <option value="茄萣區">茄萣區</option>
+            <option value="湖內區">湖內區</option>
+            <option value="旗山區">旗山區</option>
+            <option value="美濃區">美濃區</option>
+            <option value="內門區">內門區</option>
+            <option value="杉林區">杉林區</option>
+            <option value="甲仙區">甲仙區</option>
+            <option value="六龜區">六龜區</option>
+            <option value="茂林區">茂林區</option>
+            <option value="桃源區">桃源區</option>
+            <option value="那瑪夏區">那瑪夏區</option>
+        </select>
+    </section>
+    <section class="hot-location">
+        <h2>熱門行政區</h2>
+        <ul id="clickLocation">
+            <li><a href="" class="btn btn-success">苓雅區</a></li>
+            <li><a href="" class="btn btn-danger">三民區</a></li>
+            <li><a href="" class="btn btn-warning">新興區</a></li>
+            <li><a href="" class="btn btn-primary">鹽埕區</a></li>
+        </ul>
+    </section>
+    <div class="hr">
+        <hr>
+        <span></span>
+    </div>
+    <section class="all-lacation">
+        <div class="container">
+
+            <h2 id="selectLocTitle">高雄景點</h2>
+            <div id="allBolck" class="row">
+            </div>
+            <!-- <div class="pagination">
+                <span>
+                    <a href=""><i class="fas fa-chevron-left"></i>prev</a>
+                </span>
+                <ul>
+                    <li class="active"><a href="">1</a></li>
+                    <li><a href="">2</a></li>
+                    <li><a href="">3</a></li>
+                    <li><a href="">4</a></li>
+                    <li><a href="">5</a></li>
+                </ul>
+                <span>
+                    <a href="">next<i class="fas fa-chevron-right"></i></a>
+                </span>
+            </div> -->
+        </div>
+    </section>
+</main>
+   <footer>
+       <p>高雄旅遊網</p>
+       <span>資料來源：高雄市政府</span>
+   </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script src="js/all.js"></script>
+</body>
+
+</html>

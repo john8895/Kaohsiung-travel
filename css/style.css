@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+ul,ol {
+   list-style-type: none; 
+   margin: 0;padding: 0;
+}
+body {
+    font-family: "Microsoft JhengHei";
+}
+.banner {
+    background: url(../img/banner.png) no-repeat center / cover;
+    width: 100%;
+    height: 380px;
+    text-align: center;
+    padding-top: 80px;
+}
+.banner h1 {
+    font-size: 40px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: "Noto sans TC";
+    font-weight: normal;
+}
+#Location {
+    line-height: 2;
+    font-size: 16px;
+    width: 500px;
+    border: 3px solid #fff;
+    background-color: rgba(255,255,255,0.78);
+    padding: 10px 5px;
+    margin-top: 80px;
+}
+.hot-location {
+    width: 80%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 1px 3px 2px #ddd;
+    margin: auto;
+    position: relative;
+    top: -80px;
+    border-radius: 10px;
+}
+.hot-location h2 {
+    font-size: 17px;
+    font-weight: bold;
+}
+ul#clickLocation {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+ul#clickLocation li {
+    flex-basis: 160px;
+}
+ul#clickLocation li a{
+    width: 150px;
+}
+
+/* Show Data */
+#selectLocTitle {
+    text-align: center;
+    font-size: 28px;
+    color: #8E86CE;
+    font-family: "Noto sans TC";
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.location-item {
+    border: 1px solid #ddd;
+    /* height: 250px; */
+    margin-bottom: 20px;
+    position: relative;
+}
+.location-item .pic {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 170px;
+    position: relative;
+    background-position: center;
+}
+.location-item h3 {
+    font-size: 22px;
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    text-shadow: 1px 1px 3px #000;
+    margin: 0;
+    line-height: normal;
+}
+.location-item .location {
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+    color: #fff;
+    text-shadow: 1px 1px 3px #000;
+}
+.location-item .ticket {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.location-item .ticket::before {
+    content: '\f02b';
+    color: #F5D005;
+}
+#list {
+    padding: 10px 20px;
+}
+#list li {
+    line-height: 2;
+}
+#list li:before,
+.location-item .ticket::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-style: normal;
+    margin-right: 10px;
+}
+#list li:nth-child(1)::before {
+    content: '\f017';
+    color: #8A82CC;
+}
+#list li:nth-child(2)::before {
+    content: '\f3c5';
+    color: #F5A623;
+}
+#list li:nth-child(3)::before {
+    content: '\f87b';
+    color: #559AC8;
+}
+/* Spancing */
+hr {
+    border: 0;
+    border-bottom: 3px dotted #AACCE3;
+    width: 80%;
+    margin: auto;
+}
+.hr {
+    text-align: center;
+}
+.hr span:before {
+    content: '\f358';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-style: normal;
+    position: relative;
+    top: -17px;
+    font-size: 22px;
+    color: #51a4db;
+    background-color: #fff;
+}
+.no-data {
+    text-align: center;
+    font-size: 19px;
+    width: 100%;
+    margin: 30px 0;
+}
+main {
+    margin-bottom: 50px;
+}
+/* Footer */
+footer {
+    background-color: #559AC8;
+    text-align: center;
+    color: #fff;
+    /* height: 300px; */
+    padding: 20px 0;
+    font-size: 17px;
+}
+footer span {
+    color: yellow;
+}
+/* Pagination */
+.pagination {}
+.pagination ul {
+    display:flex;
+}
+.pagination ul li {
+    padding: 2px 10px;
+}
